@@ -1,0 +1,4 @@
+/.env
+/sentence_bert/
+/main_program/generate/*
+!/main_program/generate/.gitkeep

@@ -2,8 +2,8 @@ import json
 import os
 import dirtyjson
 
-file_path = "generate/test_all_error_text.json"
-output_path = "generate/parsed_test_all_error_output.json"
+file_path = "generate/all_error_text.json"
+output_path = "generate/parsed_all_error_output.json"
 
 with open(file_path, 'r', encoding='utf-8') as file:
     data = json.load(file)

@@ -2,7 +2,7 @@ import json
 import os
 import dirtyjson
 
-file_path = "generate/correct_combined_results_4.json" 
+file_path = "generate/correct_combined_results.json" 
 output_path = "generate/parsed_correct_output.json"
 
 with open(file_path, 'r', encoding='utf-8') as file:

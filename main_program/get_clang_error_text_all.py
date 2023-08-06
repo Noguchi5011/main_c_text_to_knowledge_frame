@@ -85,5 +85,5 @@ output_format = all_responses
 
 print(output_format)
 
-with open(f'./generate/2_test_all_error_text.json', 'w') as result_file:
+with open(f'./generate/all_error_text.json', 'w') as result_file:
     json.dump(output_format, result_file, ensure_ascii=False, indent=4)

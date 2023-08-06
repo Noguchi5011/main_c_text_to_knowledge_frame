@@ -98,5 +98,5 @@ output_format = [
 
 print(output_format)
 
-with open(f'./generate/correct_combined_results_4.json', 'w') as result_file:
+with open(f'./generate/correct_combined_results.json', 'w') as result_file:
     json.dump(output_format, result_file, ensure_ascii=False, indent=4)
