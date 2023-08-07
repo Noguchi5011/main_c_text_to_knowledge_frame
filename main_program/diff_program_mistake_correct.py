@@ -60,5 +60,5 @@ if __name__ == "__main__":
                 "mistaken_code": mistaken_code,
                 "correct_program": correct_program
             }
-            json.dump(output_data, out_file, indent=4)
+            json.dump(output_data, out_file, ensure_ascii=False, indent=4)
         print("差分が検出され、output.jsonに保存されました。")
