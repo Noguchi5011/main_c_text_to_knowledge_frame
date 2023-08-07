@@ -1,4 +1,4 @@
-source ../venv/bin/activate
+source ../../venv/bin/activate
 
 python3 c_lang_mistake_check.py
 
