@@ -1,5 +1,7 @@
 source ../../venv/bin/activate
 
+mkdir -p generate/
+
 python3 c_lang_mistake_check.py
 
 python3 parse_mistake_check.py
